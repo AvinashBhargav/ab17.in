@@ -22,7 +22,7 @@ function App() {
           </p>
           <div className={`hero-cta ${isVisible ? 'fade-in-delay-2' : ''}`}>
             <button className="cta-primary">View My Work</button>
-            <button className="cta-secondary">Get In Touch</button>
+            <a href="mailto:avinashbhargavbandi@gmail.com" className="cta-secondary">Get In Touch</a>
           </div>
         </div>
         <div className="hero-visual">
